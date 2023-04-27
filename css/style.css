@@ -15,7 +15,8 @@ main {
   align-items: center;
 }
 
-#img-1{
-  background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url(image.png);
+.banner{
+  background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("./banner/image\ 1Banner.png");
+  margin-bottom: 118px;
 }
 
