@@ -1,12 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 :root {
   --branco: #ffffff;
   --preto:  #0B1D03;
+  --cafe-claro:#A0996C;
+  --creditos:#1F1F1F;
+  --highlights:#F5F5F5;
+  --produtos:#F7F1E6;
+  --cards:#FFFCF6;
 }
 
 body {
   margin: 0;
   color: var(--preto);
+  background-color: var(--branco);
 }
+
+.banner{
+  background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  margin-top: -9%;
+  margin-left: 5%;
+  width: 85%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header p{
+  font-size: 28px;
+  color: var(--branco);
+  font-family: 'Playfair Display';
+  font-weight: 700;
+}
+
+.banner-title{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15%;
+  margin-top: -3%;
+
+}
+
+.banner-title h1{
+  font-family: 'Playfair Display';
+  color: var(--branco);
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: -1%;
+}
+
+.banner-title h3{
+  color: var(--branco);
+  font-family: 'Open Sans';
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.banner-sliders{
+  margin-left: 15%;
+  margin-bottom: 2%;
+  margin-top: -6%;
+}
+
+.banner-arrows{
+  margin-left: 15%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+.botao-banner{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#seta-esquerda{
+  rotate: 180deg;
+  margin-right: 15px;
+}
+
+.botao-banner-bag{
+  background-image: "css\banner\Bag.svg";
+}
+
 
 main {
   width: 100%;
@@ -15,7 +102,5 @@ main {
   align-items: center;
 }
 
-.banner{
-   background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
-}
+
 
