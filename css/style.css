@@ -18,7 +18,7 @@ body {
 
 .banner{
   background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
-  width: 100%;
+  width: 90%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -101,6 +101,40 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+.highlights{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.highlight h2{
+  font-family: 'Playfair Display';
+  font-size: 70px;
+ 
+}
+
+.highlight p{
+  width: 600px;
+  font-family:'Open Sans';
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.highlight img{
+  height: 550px;
+}
+
 
 
 
