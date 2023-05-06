@@ -8,6 +8,7 @@
   --highlights:#F5F5F5;
   --produtos:#F7F1E6;
   --cards:#FFFCF6;
+  --cinza:#969696;
 }
 
 body {
@@ -103,6 +104,7 @@ main {
 }
 
 .highlights{
+  background-color: var(--highlights);
   width: 85%;
   display: flex;
   flex-direction: column;
@@ -134,3 +136,86 @@ main {
 .highlight img{
   height: 550px;
 }
+
+.varieties{
+  background-color: var(--produtos);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.varieties h2{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  color: var(--cafe-claro);
+  font-size: 50px;
+  line-height: 55px;
+  position: absolute;
+  top: 2150px;
+  left: 200px;
+}
+
+.variety-cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coffee-title{
+  margin-right: 150px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 28px;
+  color: var(--preto);
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.coffee-bag img{
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 170px;
+  height: 215px;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.price h4{
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--preto);
+  margin-right: 10px;
+}
+
+.price p{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--cinza);
+}
+
+.variety-cards button{
+  margin-left: 10px;
+  width: 300px;
+  height: 70px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
