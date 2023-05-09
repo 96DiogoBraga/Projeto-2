@@ -105,7 +105,7 @@ main {
 
 .highlights{
   background-color: var(--highlights);
-  width: 85%;
+  width: 1600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,6 +118,9 @@ main {
   justify-content: space-between;
   margin-bottom: 100px;
   margin-top: 100px;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 
 .highlight h2{
@@ -143,23 +146,29 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 50px;
+  position: relative;
+  right: 250px;
 }
 
 .varieties h2{
+  width: 500px;
   font-family: 'Playfair Display';
   font-weight: 700;
   color: var(--cafe-claro);
   font-size: 50px;
   line-height: 55px;
-  position: absolute;
-  top: 2150px;
-  left: 200px;
+  position: relative;
+  bottom:745px;
+  left:438px;
 }
 
 .variety-cards{
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
+  left: 30px;
+  margin-top: 150px;
 }
 
 .coffee-title{
@@ -226,10 +235,12 @@ main {
   align-items: center;
   justify-content: space-around;
   margin-top: 200px;
+  position: relative;
+  left: 30px;
 }
 
 .benefits p{
-  width: 100px;
+  width: 200px;
   font-family: 'Open Sans';
   color: var(--preto);
   font-weight: 300;
@@ -247,9 +258,10 @@ main {
   justify-content: space-evenly;
 }
 .cards-coffee{
+  background-color: var(--cards);
   display: flex;
   flex-direction: row;
-  align-items: center;  
+  align-items: center;
 }
 
 .card-coffee-1{
@@ -310,3 +322,157 @@ main {
   width: 400px;
 }
 
+.find-store{
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+}
+
+.find-store h2{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 55px;
+  color: var(--preto);
+}
+
+.find-store form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.select{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  width: 400px;
+  height: 45px;
+  margin-right: 18px;
+  background-color: var(--branco);
+  border: solid var(--preto) thin;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+select:required:invalid{
+  color: var(--cinza);
+  font-family: 'Open Sans';
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 15px;
+  opacity: 1;
+}
+
+
+::placeholder{
+  
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: var(--cinza);
+  font-size: 15px;
+  line-height: 28px;
+  opacity: 1;
+}
+
+.busca-endereco input{
+  width: 850px;
+  height: 45px;
+  color: var(--cinza);
+  background-color: var(--branco);
+  position: relative;
+  border: solid var(--preto) thin;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.busca-endereco button{
+  background-color: transparent;
+  border: none;
+  position: relative;
+  right: 50px;
+  top: 9px;
+  cursor: pointer;
+}
+
+iframe{
+  width: 1265px;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+footer{
+  background-color: var(--produtos);
+  width: 1265px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 250px;
+}
+
+
+#Name-Footer{
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--preto);
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  margin-bottom: 120px;
+
+}
+
+footer p{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin: 10px 0 10px 0;
+}
+
+.credits{
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0 20px 650px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.credits h5{
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 15px;
+  margin: 0;
+}
+
+.credits img{
+  margin-top: 4px;
+  margin-left: 15px;
+  width: 159.8px;
+  height: 19.24px;
+}
+
+footer a{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--creditos);
+}
