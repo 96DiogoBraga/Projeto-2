@@ -251,56 +251,58 @@
         Encontre uma loja
       </h2>
       <form>
-        <select name="cidade" id="">
-          <option value="EscolhaACidade" selected>Escolha a cidade</option>
+        <select class="select" name="cidade" id="" required>
+          <option value="" disabled selected hidden>Escolha a cidade</option>
         </select>
+        <div class="busca-endereco">
+          <input type="search" name="Endereço" id="" placeholder="Digite o endereço">
         
-        <input type="search" name="Endereço" id="" placeholder="Digite o endereço">
-        
-        <button type="submit"><img src="./assets/icons/lupa.svg"></button>
-
+          <button type="submit"><img src="./assets/icons/lupa.svg"></button>
+        </div>
       </form>
 
-      <iframe width="1440" height="512" style="border:0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMyzPysqQpgARlznSOl55NVs&key=AIzaSyBkOIz3L1zdVyEAxZXEYjp3FLbedZb5Ssg"></iframe>
+      <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=brasil&key=AIzaSyD_oNOhqNUWwdHobNVh_x4vCRlKR3jjGOE"></iframe> 
     </section>
 
   </main>
 
   <footer>
-    <p>BlackCoffee</p>
+    <div class="footer">
+      <p id="Name-Footer">Black<i>Coffee</i></p>
+      
+      <div class="footer-elements">
+        <p>INSTITUCIONAL</p>
+        <ul>
+          <li><a href="">Quem somos</a></li>
+          <li><a href="">Certificados</a></li>
+          <li><a href="">Nossa produção</a></li>
+          <li><a href="">Programa de parceiros</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-elements">
+        <p>PRODUTOS</p>
+        <ul>
+          <li><a href="">Café</a></li>
+          <li><a href="">Té</a></li>
+          <li><a href="">Acessórios</a></li>
+          <li><a href="">Ofertas</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-elements">
+        <p>REDES SOCIAIS</p>
+        <a href=""><img src="./assets/footer/Instagram.png" alt="logo Instagram"></a>
+        <a href=""><img src="./assets/footer/Twitter.png" alt="logo Twitter"></a>
+        <a href=""><img src="./assets/footer/Facebook.png" alt="logo Facebook"></a>
+      </div>
+    </div>
     
-    <div>
-      <p>INSTITUCIONAL</p>
-      <ul>
-        <li><a href="">Quem somos</a></li>
-        <li><a href="">Certificados</a></li>
-        <li><a href="">Nossa produção</a></li>
-        <li><a href="">Programa de parceiros</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <p>PRODUTOS</p>
-      <ul>
-        <li><a href="">Café</a></li>
-        <li><a href="">Té</a></li>
-        <li><a href="">Acessórios</a></li>
-        <li><a href="">Ofertas</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <p>REDES SOCIAIS</p>
-      <a href=""><img src="./assets/footer/Instagram.png" alt="logo Instagram"></a>
-      <a href=""><img src="./assets/footer/Twitter.png" alt="logo Twitter"></a>
-      <a href=""><img src="./assets/footer/Facebook.png" alt="logo Facebook"></a>
-    </div>
-
-    <div>
-      <h5>DESIGNED BY</h5>
-      <img src="./assets/footer/mentorama.png" alt="logo mentorama">      
-    </div>
-
+      <div class="credits">
+        <h5>DESIGNED BY</h5>
+        <img src="./assets/footer/mentorama.png" alt="logo mentorama">      
+      </div>
+    
   </footer>
 </body>
 </html>
