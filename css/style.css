@@ -12,6 +12,7 @@
 }
 
 body {
+  width: 100%;
   margin: 0;
   color: var(--preto);
   background-color: var(--branco);
@@ -19,7 +20,7 @@ body {
 
 .banner{
   background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
-  width: 90%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center-top;
@@ -28,7 +29,7 @@ body {
 header{
   margin-top: -10%;
   margin-left: 5%;
-  width: 85%;
+  width: 90%;
   height: 450px;
   display: flex;
   flex-direction: row;
@@ -105,7 +106,7 @@ main {
 
 .highlights{
   background-color: var(--highlights);
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,6 +142,7 @@ main {
 }
 
 .varieties{
+  width: 100%;
   background-color: var(--produtos);
   display: flex;
   flex-direction: column;
@@ -151,7 +153,6 @@ main {
 }
 
 .varieties h2{
-  width: 500px;
   font-family: 'Playfair Display';
   font-weight: 700;
   color: var(--cafe-claro);
@@ -163,6 +164,7 @@ main {
 }
 
 .variety-cards{
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -229,7 +231,7 @@ main {
 }
 
 .benefits{
-  width: 1500px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -258,6 +260,7 @@ main {
   justify-content: space-evenly;
 }
 .cards-coffee{
+  width: 100%;
   background-color: var(--cards);
   display: flex;
   flex-direction: row;
@@ -265,7 +268,7 @@ main {
 }
 
 .card-coffee-1{
-  width: 100%;
+  width: 80%;
   display: inline-block;
   position: relative;
 }
@@ -294,7 +297,8 @@ main {
 }
 
 .card-coffee-2{
-  width: 100%;
+  width: 80%;
+  margin-left: 50px;
   display: inline-block;
   position: relative;
 }
@@ -403,6 +407,7 @@ iframe{
 }
 
 footer{
+  width: 100%;
   background-color: var(--produtos);
   width: 1265px;
   display: flex;
@@ -432,7 +437,7 @@ footer p{
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 40px;
 }
 
 ul{
