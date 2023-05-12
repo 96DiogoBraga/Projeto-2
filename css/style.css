@@ -12,15 +12,22 @@
 }
 
 body {
-  width: 100%;
-  margin: 0;
   color: var(--preto);
   background-color: var(--branco);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
+
+
 
 .banner{
   background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
   width: 100%;
+  margin-right: 0;
+  margin-left: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center-top;
@@ -149,7 +156,7 @@ main {
   align-items: center;
   padding: 50px;
   position: relative;
-  right: 190px;
+  padding-right: 400px;
 }
 
 .varieties h2{
@@ -185,8 +192,8 @@ main {
 }
 
 .coffee-bag img{
-  margin-left: 65px;
-  margin-top: 50px;
+  padding-left: 100px;
+  padding-top: 50px;
   width: 170px;
   height: 215px;
 }
@@ -195,7 +202,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 80px;
+  padding-left: 120px;
 }
 
 .price h4{
@@ -217,7 +224,7 @@ main {
 
 .variety-cards button{
   margin-left: 10px;
-  width: 300px;
+  width: 390px;
   height: 70px;
   border: none;
   border-radius: 4px;
@@ -225,7 +232,8 @@ main {
   color: var(--branco);
   font-family: 'Open Sans';
   font-weight: 800;
-  font-size: 15px;
+  font-size: 20px;
+  line-height: 28px;
   margin-bottom: 100px;
   cursor: pointer;
 }
@@ -411,7 +419,7 @@ iframe{
 footer{
   width: 100%;
   background-color: var(--produtos);
-  width: 1265px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -421,7 +429,6 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-left: 300px;
 }
 
 
@@ -431,7 +438,7 @@ footer{
   color: var(--preto);
   font-family: 'Playfair Display';
   font-weight: 700;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 
 }
 
@@ -446,6 +453,7 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: var(--produtos);
 }
 
 li{
@@ -455,7 +463,6 @@ li{
 .credits{
   display: flex;
   flex-direction: row;
-  margin: 60px 0 20px 650px;
   align-items: flex-end;
   justify-content: center;
 }
@@ -465,12 +472,12 @@ li{
   font-weight: 800;
   font-size: 17px;
   line-height: 15px;
-  margin: 0;
+  padding: 0;
 }
 
 .credits img{
-  margin-top: 4px;
-  margin-left: 15px;
+  padding-bottom: 27px;
+  padding-left: 15px;
   width: 159.8px;
   height: 19.24px;
 }
