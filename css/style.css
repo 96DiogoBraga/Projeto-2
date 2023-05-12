@@ -181,7 +181,7 @@ main {
 }
 
 .coffee-title{
-  margin-right: 150px;
+  padding-right: 150px;
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 28px;
@@ -234,19 +234,21 @@ main {
   font-weight: 800;
   font-size: 20px;
   line-height: 28px;
-  margin-bottom: 100px;
   cursor: pointer;
+}
+.mid-section{
+  width: 100%;
 }
 
 .benefits{
+  background-color: var(--cards);
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 200px;
+  justify-content: space-evenly;
   position: relative;
-  left: 30px;
+  padding-top: 200px;
 }
 
 .benefits p{
@@ -273,12 +275,13 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 170px;
 }
 
 .card-coffee-1{
-  width: 80%;
   display: inline-block;
   position: relative;
+  padding-right: 50px;
 }
 
 .cards-coffee-text-1{
@@ -291,7 +294,7 @@ main {
   font-size: 50px;
   line-height: 40px;
   color:var(--cards);
-  margin-left: 25px;
+  padding-left: 25px;
 }
 
 .cards-coffee-text-1 p{
@@ -300,13 +303,11 @@ main {
   font-size: 18px;
   line-height: 25px;
   color: var(--cards);
-  margin-left: 25px;
+  padding-left: 25px;
   width: 400px;
 }
 
 .card-coffee-2{
-  width: 80%;
-  margin-left: 50px;
   display: inline-block;
   position: relative;
 }
