@@ -251,7 +251,7 @@ main {
 
 .benefits{
   background-color: var(--cards);
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -259,7 +259,6 @@ main {
   position: relative;
   padding-top: 200px;
   margin-top: -30px;
-  padding-left: 100px;
 }
 
 .benefits p{
