@@ -246,12 +246,12 @@ main {
 }
 .mid-section{
   width: 100%;
-  background-color: var(--highlights);
+  background-color: var(--cards);
 }
 
 .benefits{
   background-color: var(--cards);
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -259,10 +259,10 @@ main {
   position: relative;
   padding-top: 200px;
   margin-top: -30px;
+  padding-left: 150px;
 }
 
 .benefits p{
-  width: 200px;
   font-family: 'Open Sans';
   color: var(--preto);
   font-weight: 300;
@@ -271,6 +271,7 @@ main {
   text-align: center;
   margin-bottom: 60px;
 }
+
 
 .benefits-description{
   margin-left: -150px;
@@ -285,7 +286,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 170px;
+  padding-left: 230px;
 }
 
 .card-coffee-1{
@@ -359,6 +360,7 @@ main {
   font-size: 49px;
   line-height: 55px;
   color: var(--preto);
+  margin-left: -100px;
 }
 
 .find-store form{
@@ -366,6 +368,7 @@ main {
   flex-direction: row;
   align-items: center;
   width: 100%;
+  margin-left: -100px;
 }
 
 .select{
@@ -421,22 +424,23 @@ select:required:invalid{
 }
 
 iframe{
-  width: 1265px;
+  width: 76%;
   height: 500px;
   margin-top: 20px;
   margin-bottom: 80px;
+  margin-left: -100px;
 }
 
 footer{
   width: 100%;
   background-color: var(--produtos);
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .footer{
-  width: 100%;
+  margin-left: -15px;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
