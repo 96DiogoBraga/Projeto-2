@@ -376,9 +376,9 @@ main {
   font-weight: 300;
   width: 400px;
   height: 45px;
-  margin-right: 18px;
+  margin-right: 35px;
   background-color: var(--branco);
-  border: solid var(--preto) thin;
+  border: solid var(--preto) 2px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -404,12 +404,12 @@ select:required:invalid{
 }
 
 .busca-endereco input{
-  width: 850px;
+  width: 900px;
   height: 45px;
   color: var(--cinza);
   background-color: var(--branco);
   position: relative;
-  border: solid var(--preto) thin;
+  border: solid var(--preto) 2px;
   border-radius: 4px;
   padding-left: 20px;
 }
