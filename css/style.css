@@ -375,7 +375,7 @@ main {
   font-family: 'Open Sans';
   font-weight: 300;
   width: 400px;
-  height: 45px;
+  height: 60px;
   margin-right: 35px;
   background-color: var(--branco);
   border: solid var(--preto) 2px;
@@ -405,7 +405,7 @@ select:required:invalid{
 
 .busca-endereco input{
   width: 900px;
-  height: 45px;
+  height: 60px;
   color: var(--cinza);
   background-color: var(--branco);
   position: relative;
