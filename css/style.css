@@ -156,7 +156,7 @@ main {
   align-items: center;
   padding-top: 180px;
   position: relative;
-  padding-right: 1300px;
+  padding-right: 1150px;
 }
 
 .varieties h2{
@@ -285,7 +285,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 150px;
+  padding-left: 230px;
   padding-bottom: 150px;
 }
 
@@ -374,7 +374,7 @@ main {
 .select{
   font-family: 'Open Sans';
   font-weight: 300;
-  width: 400px;
+  width: 420px;
   height: 60px;
   margin-right: 35px;
   background-color: var(--branco);
@@ -404,7 +404,7 @@ select:required:invalid{
 }
 
 .busca-endereco input{
-  width: 900px;
+  width: 1000px;
   height: 60px;
   color: var(--cinza);
   background-color: var(--branco);
