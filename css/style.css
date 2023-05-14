@@ -286,6 +286,7 @@ main {
   flex-direction: row;
   align-items: center;
   padding-left: 230px;
+  padding-bottom: 150px;
 }
 
 .card-coffee-1{
