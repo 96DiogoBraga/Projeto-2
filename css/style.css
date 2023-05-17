@@ -35,7 +35,7 @@ body {
 
 header{
   margin-top: -10%;
-  margin-left: 5%;
+  margin-left: 80px;
   width: 90%;
   height: 450px;
   display: flex;
@@ -56,7 +56,7 @@ header p{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 5%;
+  margin-left: 80px;
   margin-top: -3%;
 
 }
@@ -77,13 +77,13 @@ header p{
 }
 
 .banner-sliders{
-  margin-left: 5%;
+  margin-left: 80px;
   margin-bottom: 2%;
   margin-top: -6%;
 }
 
 .banner-arrows{
-  margin-left: 5%;
+  margin-left: 80px;
   margin-bottom: 3%;
   margin-top: 5%;
 }
@@ -120,7 +120,7 @@ main {
 }
 
 .highlight{
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -138,7 +138,7 @@ main {
 }
 
 .highlight p{
-  width: 600px;
+  width: 650px;
   font-family:'Open Sans';
   font-weight: 300;
   font-size: 40px;
@@ -169,7 +169,7 @@ main {
   line-height: 55px;
   position: relative;
   bottom:745px;
-  left:728px;
+  left:756px;
 }
 
 .variety-cards{
@@ -178,13 +178,14 @@ main {
   flex-direction: row;
   align-items: center;
   position: relative;
+  right: 80px;
 }
 
 .coffee-card{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin:32px;
+  margin:65px;
   background-color:var(--produtos); 
   padding: 50px;
   border-radius: 8px;
@@ -258,7 +259,7 @@ main {
   justify-content: center;
   position: relative;
   padding-top: 200px;
-  margin-top: -30px;
+  margin-top: -63px;
 }
 
 .benefits p{
@@ -273,7 +274,7 @@ main {
 
 
 .benefits-description{
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,9 +286,19 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 230px;
+  padding-left: 80px;
   padding-bottom: 150px;
 }
+
+.cards-coffee-img-1{
+  width: 800px;
+  margin-right: 86px;
+}
+
+.cards-coffee-img-2{
+  width: 800px;
+}
+
 
 .card-coffee-1{
   display: inline-block;
@@ -351,13 +362,13 @@ main {
   background-color: var(--branco);
   display: flex;
   flex-direction: column;
-  margin-left: 650px;
+  margin-left: 340px;
 }
 
 .find-store h2{
   font-family: 'Playfair Display';
   font-weight: 700;
-  font-size: 52px;
+  font-size: 60px;
   line-height: 55px;
   color: var(--preto);
   margin-left: -100px;
@@ -374,7 +385,7 @@ main {
 .select{
   font-family: 'Open Sans';
   font-weight: 300;
-  width: 420px;
+  width: 500px;
   height: 60px;
   margin-right: 35px;
   background-color: var(--branco);
@@ -404,7 +415,7 @@ select:required:invalid{
 }
 
 .busca-endereco input{
-  width: 1000px;
+  width: 1210px;
   height: 60px;
   color: var(--cinza);
   background-color: var(--branco);
@@ -424,7 +435,7 @@ select:required:invalid{
 }
 
 iframe{
-  width: 76%;
+  width: 91%;
   height: 500px;
   margin-top: 20px;
   margin-bottom: 80px;
@@ -439,8 +450,8 @@ footer{
 }
 
 .footer{
-  margin-left: -15px;
-  width: 90%;
+  margin-left: -130px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -472,7 +483,7 @@ ul{
 }
 
 li{
-  margin: 10px 0 10px 0;
+  margin: 10px 200px 10px 0;
 }
 
 .credits{
@@ -480,6 +491,8 @@ li{
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
+  margin-left: 120px;
+  margin-top: 70px;
 }
 
 .credits h5{
