@@ -450,6 +450,7 @@ footer{
 }
 
 .footer{
+  padding-top: 40px;
   margin-left: -130px;
   width: 100%;
   display: flex;
