@@ -13,7 +13,7 @@
 body {
   color: var(--preto);
   background-color: var(--branco);
-  width: 1922px;
+  max-width: 1922px;
   height: 100%;
   margin-top: 0;
   margin-left: 0;
@@ -26,8 +26,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
+  align-items: center; 
+  overflow-x: hidden
 }
 
 
@@ -369,10 +369,9 @@ main {
 
 .find-store{
   width: 100%;
-  background-color: var(--branco);
+  background-color: var(--highlights);
   display: flex;
   flex-direction: column;
-  padding-left: 340px;
 }
 
 .find-store h2{
@@ -381,7 +380,7 @@ main {
   font-size: 60px;
   line-height: 55px;
   color: var(--preto);
-  margin-left: -100px;
+  padding-left: 100px;
 }
 
 .find-store form{
@@ -389,7 +388,7 @@ main {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  margin-left: -100px;
+  padding-left: 100px;
 }
 
 .select{
@@ -449,7 +448,7 @@ iframe{
   height: 500px;
   margin-top: 20px;
   margin-bottom: 80px;
-  margin-left: -100px;
+  padding-left: 100px;
 }
 
 footer{
