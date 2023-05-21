@@ -5,27 +5,36 @@
   --preto:  #0B1D03;
   --cafe-claro:#A0996C;
   --creditos:#1F1F1F;
-  --highlights:#F5F5F5;
+  --highlights:#FFFCF6;
   --produtos:#F7F1E6;
-  --cards:#FFFCF6;
   --cinza:#969696;
 }
 
 body {
   color: var(--preto);
   background-color: var(--branco);
-  width: 100%;
+  width: 1922px;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden; 
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 
 
 .banner{
   background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
-  width: 100%;
+  width: 1922px;
   margin-right: 0;
   margin-left: 0;
   background-repeat: no-repeat;
@@ -155,8 +164,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding-top: 180px;
-  position: relative;
-  padding-right: 1150px;
+  position: relative; 
 }
 
 .varieties h2{
@@ -179,6 +187,7 @@ main {
   align-items: center;
   position: relative;
   right: 80px;
+  padding-right: 1150px;
 }
 
 .coffee-card{
@@ -247,11 +256,11 @@ main {
 }
 .mid-section{
   width: 100%;
-  background-color: var(--cards);
+  background-color: var(--highlights);
 }
 
 .benefits{
-  background-color: var(--cards);
+  background-color: var(--highlights);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -282,11 +291,11 @@ main {
 }
 .cards-coffee{
   width: 100%;
-  background-color: var(--cards);
+  background-color: var(--highlights);
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 80px;
+  padding-left: 0px;
   padding-bottom: 150px;
 }
 
@@ -304,6 +313,7 @@ main {
   display: inline-block;
   position: relative;
   padding-right: 50px;
+  padding-left: 100px;
 }
 
 .cards-coffee-text-1{
@@ -315,7 +325,7 @@ main {
   font-weight: 700;
   font-size: 50px;
   line-height: 40px;
-  color:var(--cards);
+  color:var(--highlights);
   padding-left: 25px;
 }
 
@@ -324,7 +334,7 @@ main {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  color: var(--cards);
+  color: var(--highlights);
   padding-left: 25px;
   width: 400px;
 }
@@ -343,7 +353,7 @@ main {
   font-weight: 700;
   font-size: 50px;
   line-height: 40px;
-  color:var(--cards);
+  color:var(--highlights);
   margin-left: 25px;
 }
 
@@ -352,7 +362,7 @@ main {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  color: var(--cards);
+  color: var(--highlights);
   margin-left: 25px;
   width: 400px;
 }
@@ -362,7 +372,7 @@ main {
   background-color: var(--branco);
   display: flex;
   flex-direction: column;
-  margin-left: 340px;
+  padding-left: 340px;
 }
 
 .find-store h2{
