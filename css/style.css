@@ -187,7 +187,7 @@ main {
   align-items: center;
   position: relative;
   right: 80px;
-  padding-right: 1150px;
+  padding-right: 1180px;
 }
 
 .coffee-card{
@@ -301,7 +301,7 @@ main {
 
 .cards-coffee-img-1{
   width: 800px;
-  margin-right: 86px;
+  margin-right: 76px;
 }
 
 .cards-coffee-img-2{
@@ -380,7 +380,7 @@ main {
   font-size: 60px;
   line-height: 55px;
   color: var(--preto);
-  padding-left: 100px;
+  padding-left: 86px;
 }
 
 .find-store form{
@@ -388,7 +388,7 @@ main {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  padding-left: 100px;
+  padding-left: 86px;
 }
 
 .select{
@@ -448,7 +448,7 @@ iframe{
   height: 500px;
   margin-top: 20px;
   margin-bottom: 80px;
-  padding-left: 100px;
+  padding-left: 86px;
 }
 
 footer{
