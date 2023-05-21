@@ -12,8 +12,7 @@
 
 body {
   color: var(--preto);
-  background-color: var(--branco);
-  max-width: 1922px;
+  width: 1922px;
   height: 100%;
   margin-top: 0;
   margin-left: 0;
@@ -27,14 +26,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 
 
 .banner{
   background: linear-gradient(0deg, #1f1f1f80, #1f1f1f80), url("banner/image 1Banner.png");
-  width: 1922px;
+  width: 100%;
   margin-right: 0;
   margin-left: 0;
   background-repeat: no-repeat;
