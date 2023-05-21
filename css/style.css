@@ -369,7 +369,7 @@ main {
 
 .find-store{
   width: 100%;
-  background-color: var(--highlights);
+  background-color: var(--branco);
   display: flex;
   flex-direction: column;
 }
